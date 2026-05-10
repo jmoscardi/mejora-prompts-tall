@@ -87,8 +87,6 @@ listas para estructurar las secciones.
 El bloque debe tener exactamente esta estructura interna:
 
 ```md
-## 🎯 Prompt mejorado
-
 ### Contexto
 [Descripción del sistema, módulo o aplicación donde vive este requerimiento]
 
