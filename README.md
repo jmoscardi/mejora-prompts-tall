@@ -37,12 +37,16 @@ Cada prompt generado sigue una estructura estricta para garantizar resultados co
 
 ## 🚀 Cómo utilizarlo
 
-1.  Carga las instrucciones de [instrucciones.md](./instrucciones.md) en tu sesión de Claude.
-2.  Proporciona tu requerimiento (puedes incluir referencias a archivos con `@`).
-3.  Copia el prompt mejorado generado en el bloque de código Markdown.
-4.  ¡Úsalo para generar código de alta calidad en tu proyecto!
+Para obtener los mejores resultados, te recomendamos usar **Claude Projects** (disponible en planes Pro y Team):
+
+1.  **Crea un nuevo Proyecto** en [Claude.ai](https://claude.ai).
+2.  **Configura las Instrucciones**: Copia el contenido íntegro de [`instrucciones.md`](./instrucciones.md) y pégalo en la sección de **"Project Instructions"** (en la barra lateral derecha).
+3.  **Define tu Requerimiento**: En el chat del proyecto, describe tu tarea (puedes referenciar archivos usando `@` si usas Claude Code o simplemente mencionarlos).
+4.  **Genera y Copia**: El optimizador procesará tu entrada y te devolverá el **Prompt mejorado** dentro de un bloque Markdown.
+5.  **Ejecuta**: Copia ese prompt y úsalo en una nueva sesión o con Claude Code para obtener la implementación técnica perfecta.
 
 ---
+
 
 <p align="center">
   <b>mejora-prompts-tall</b> • Un proyecto para elevar la calidad de tu desarrollo TALL.
