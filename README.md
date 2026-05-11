@@ -46,7 +46,7 @@ Para obtener los mejores resultados, te recomendamos usar **Claude Projects** (d
 4.  **Itera o Copia**: 
     *   Si el requerimiento es claro, te devolverá el **Prompt mejorado** de inmediato.
     *   Si detecta dudas **bloqueantes**, te hará preguntas primero. Respóndelas en el mismo chat.
-5.  **Ejecuta**: Una vez generado el bloque ```md, cópialo y úsalo en una nueva sesión o con Claude Code para obtener la implementación técnica perfecta.
+5.  **Ejecuta**: Una vez generado el bloque ` ```md ``` `, cópialo y úsalo en una nueva sesión o con Claude Code para obtener la implementación técnica perfecta.
 
 ---
 
