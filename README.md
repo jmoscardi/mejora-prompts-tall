@@ -15,7 +15,7 @@ El objetivo es transformar ideas básicas o requerimientos ambiguos en prompts t
 
 Actúa como un **Arquitecto de Software y Experto en IA**, refinando cada requerimiento a través de un proceso de análisis técnico:
 
-1.  **Análisis de Intención**: Razona sobre el problema real, identifica ambigüedades y define la arquitectura necesaria.
+1.  **Análisis de Intención**: Razona sobre el problema real, identifica ambigüedades y decide si necesita más información antes de proceder.
 2.  **Aplicación de Convenciones TALL**:
     *   **Laravel 12**: Implementación de *Form Requests*, *Resource Controllers* y patrones de *Actions*.
     *   **Livewire 3**: Selección inteligente entre componentes funcionales (*Volt*) u OOP según la complejidad.
@@ -23,6 +23,7 @@ Actúa como un **Arquitecto de Software y Experto en IA**, refinando cada requer
     *   **Alpine.js**: Interactividad ligera exclusiva del cliente.
 3.  **Gestión de Contexto**: Soporte nativo para referencias de archivos estilo Claude Code (`@path/file.php#L10-L20`).
 4.  **Generación de Output Estructurado**: Crea un prompt final organizado con contexto, estructura de archivos, comportamiento y criterios de aceptación.
+5.  **Validación Proactiva**: Si detecta dudas que cambian la arquitectura (bloqueantes), detiene la generación para pedir aclaraciones, evitando resultados genéricos.
 
 ## 📦 Estructura del Output
 
@@ -42,8 +43,10 @@ Para obtener los mejores resultados, te recomendamos usar **Claude Projects** (d
 1.  **Crea un nuevo Proyecto** en [Claude.ai](https://claude.ai).
 2.  **Configura las Instrucciones**: Copia el contenido íntegro de [`instrucciones.md`](./instrucciones.md) y pégalo en la sección de **"Project Instructions"** (en la barra lateral derecha).
 3.  **Define tu Requerimiento**: En el chat del proyecto, describe tu tarea (puedes referenciar archivos usando `@` si usas Claude Code o simplemente mencionarlos).
-4.  **Genera y Copia**: El optimizador procesará tu entrada y te devolverá el **Prompt mejorado** dentro de un bloque Markdown.
-5.  **Ejecuta**: Copia ese prompt y úsalo en una nueva sesión o con Claude Code para obtener la implementación técnica perfecta.
+4.  **Itera o Copia**: 
+    *   Si el requerimiento es claro, te devolverá el **Prompt mejorado** de inmediato.
+    *   Si detecta dudas **bloqueantes**, te hará preguntas primero. Respóndelas en el mismo chat.
+5.  **Ejecuta**: Una vez generado el bloque ```md, cópialo y úsalo en una nueva sesión o con Claude Code para obtener la implementación técnica perfecta.
 
 ---
 
