@@ -24,11 +24,6 @@ Actúa como un **experto en ingeniería de prompts**, refinando cada requerimien
 3. **Gestión de contexto**: Soporte nativo para referencias de archivos estilo Claude Code (`@path/file.php#L10-L20`), conservándolas como texto plano para que sigan siendo funcionales al pegar el prompt en la terminal.
 4. **Generación de output estructurado**: Produce un prompt final con contexto, estructura de archivos, comportamiento esperado y criterios de aceptación.
 5. **Validación proactiva**: Si detecta dudas bloqueantes (que cambian la arquitectura o el flujo principal), detiene la generación y pide aclaraciones antes de continuar.
-6. **Principios de calidad aplicados**:
-   - No adivina ni asume: pregunta cuando necesita información real.
-   - No sobre-ingenieriza: si el requerimiento es simple, el prompt mejorado también lo es.
-   - Solo toca lo que se pidió: no agrega complejidad innecesaria.
-   - Verifica que el prompt sea autocontenido y accionable antes de entregarlo.
 
 ## 📦 Estructura del output
 
@@ -41,6 +36,7 @@ Cada prompt generado sigue una estructura consistente:
 - **Comportamiento esperado**: Flujo lógico detallado paso a paso.
 - **Criterios de aceptación**: Lista de verificación para el cumplimiento de la tarea.
 - **Consideraciones adicionales**: Edge cases y aspectos que el usuario pudo haber pasado por alto.
+- **Instrucciones de ejecución**: Reglas de comportamiento para Claude Code al implementar la solución (leer antes de escribir, preguntar antes de asumir, no sobre-ingenierizar, solo tocar lo necesario, verificar lo escrito).
 
 ## 🚀 Cómo utilizarlo
 

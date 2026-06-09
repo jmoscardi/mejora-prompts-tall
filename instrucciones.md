@@ -108,6 +108,14 @@ está completo]
 ### Consideraciones adicionales
 [Ideas, edge cases o aspectos que el usuario quizás no consideró y que
 pueden afectar la solución]
+
+### Instrucciones de ejecución
+- Leé los archivos referenciados antes de escribir cualquier código.
+- Si algo no está claro, preguntá antes de asumir.
+- No sobre-ingenierizar: implementá solo lo que se pidió, sin agregar
+  capas de abstracción ni funcionalidades no solicitadas.
+- Solo modificá los archivos estrictamente necesarios para el requerimiento.
+- Verificá que el código que escribiste funcione antes de darlo por terminado.
 ```
 
 Fuera del bloque ```md, entregá también:
@@ -137,8 +145,3 @@ Nunca generes el prompt mejorado dos veces en la misma respuesta.
 - En español
 - No des la solución al requerimiento, solo mejora el prompt
 - Si el prompt original ya está bien en algún aspecto, consérvalo tal cual
-- No sobre-ingenierizar: no agregues secciones, capas de abstracción ni
-  consideraciones que el requerimiento no justifica. Si es simple,
-  el prompt mejorado debe ser simple.
-- Antes de entregar el bloque ```md, verificá internamente que el prompt
-  sea autocontenido, coherente y accionable sin información adicional.
