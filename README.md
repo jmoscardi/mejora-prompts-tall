@@ -5,6 +5,8 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
 [![Alpine.js](https://img.shields.io/badge/Alpine.js-3-8BC0D0?style=for-the-badge&logo=alpine.js)](https://alpinejs.dev)
 
+🌐 **English summary:** A prompt-engineering instruction set for Claude Projects that turns rough or ambiguous development requests into precise, structured prompts for Claude Code, following TALL stack conventions (Laravel 12, Livewire 3, Tailwind CSS, Alpine.js). Each generated prompt includes context, file structure, expected behavior and acceptance criteria. The full documentation below is in Spanish.
+
 Este repositorio contiene un sistema de instrucciones de ingeniería de prompts diseñado para optimizar requerimientos de desarrollo en el stack **TALL** (Tailwind CSS, Alpine.js, Laravel 12, Livewire 3).
 
 El objetivo es transformar ideas básicas o requerimientos ambiguos en prompts técnicos de alta precisión, listos para ser procesados por **Claude** o **Claude Code**.
